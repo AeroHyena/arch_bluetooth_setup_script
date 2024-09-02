@@ -1,4 +1,4 @@
-#!/bin.bash
+#!/bin/bash
 # 
 # This is a script that installs and configures bluetooth software on Linux Arch.
 # 
@@ -8,7 +8,7 @@
 #
 echo "Initializing packages to install..."
 pacman -S bluez                     # BlueZ provides the bluetooth protocol in linux
-pacman -S bluez-utils               # This provides the ```bluetoothctl``` terminal interface for bluetooth fucntionality
+pacman -S bluez-utils               # This provides the ```bluetoothctl``` terminal interface for bluetooth functionality
 pacman -S bluez-obex                # bluez-obex adds file transfer functionality using bluetooth
 pacman -S bluez-firmware            # add additional firmware for various bluetooth devices
 pacman -S blueman                   # Blueman provides a GUI interface for bluetooth functionality
