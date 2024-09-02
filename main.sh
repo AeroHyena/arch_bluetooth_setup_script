@@ -1,7 +1,8 @@
 #!/bin/bash
 # 
 # This is a script that installs and configures bluetooth software on Linux Arch.
-# 
+# The script is set up to focus on adding context to each step so that any user can understand what each
+# step entails
 
 #
 # Install all the base required software
